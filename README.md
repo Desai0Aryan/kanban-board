@@ -32,7 +32,7 @@ Follow these steps to set up and run the Kanban Board application locally:
 1. **Clone the Repository:**
 
    ```bash
-   git clone 
+   git clone https://github.com/Desai0Aryan/kanban-board.git
    cd Kanban-Board
    ```
 
