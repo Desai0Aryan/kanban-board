@@ -1,0 +1,48 @@
+/* === Color Variables === */
+:root {
+  --color-bg: #f4f6fb;
+  --color-bg-secondary: #fff;
+  --color-text: #181818;
+  --color-text-secondary: #888;
+  --color-border: #e0e0e0;
+  --color-card: #fff;
+  --color-card-shadow: rgba(0,0,0,0.08);
+  --color-label-bg: #444;
+  --color-label-text: #fff;
+  --color-label-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  --color-picker-active: #ffe066;
+  --color-scrollbar: #e0e0e0;
+  --color-scrollbar-thumb: #bbb;
+}
+
+body.dark-mode {
+  --color-bg: #181c24;
+  --color-bg-secondary: #232837;
+  --color-text: #f4f6fb;
+  --color-text-secondary: #b0b8c1;
+  --color-border: #232837;
+  --color-card: #232837;
+  --color-card-shadow: rgba(0,0,0,0.32);
+  --color-label-bg: #ffe066;
+  --color-label-text: #232837;
+  --color-label-shadow: 0 2px 8px rgba(255,224,102,0.15);
+  --color-picker-active: #232837;
+  --color-scrollbar: #232837;
+  --color-scrollbar-thumb: #444;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.875rem;
+}
