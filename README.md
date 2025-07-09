@@ -6,7 +6,7 @@ Users can easily structure their work using boards, columns, and cards—creatin
 
 
 
-#Key Highlights 💡
+### Key Features 
 
 Visual task and workflow management using the Kanban approach
 
@@ -25,21 +25,35 @@ Seamless drag-and-drop functionality for effortless task updates
 Designed to boost productivity and streamline team collaboration
 
 
-#Setup Guide:
+## Setup Guide
+
 Follow these steps to set up and run the Kanban Board application locally:
 
-Clone the Repository then:
-cd Kanban-Board
+1. **Clone the Repository:**
 
-Installing Dependencies: 
- npm install
- 
-Starting the Repo:
-npm start
+   ```bash
+   git clone 
+   cd Kanban-Board
+   ```
 
-Accessing the Application
+2. **Installing Dependencies:**
 
-You're all set! Open your browser and go to http://localhost:3000 to access the Kanban-Board application.
+   ```bash
+    npm install
+   ```
+
+3. **Starting the Repo**
+
+   Begin the application with the following command in the directory:
+
+   ```
+   npm start
+   ```
+
+   **Accessing the Application**
+
+   You're all set! Open your browser and go to http://localhost:3000 to access the Kanban-Board application.
+
 
 
 
